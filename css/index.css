@@ -1,0 +1,72 @@
+@charset "utf-8";
+/* CSS Document */
+
+body{
+	font-family:"Microsoft YaHei",Arial,Helvetica,sans-serif,"宋体";
+	line-height:190%;
+	background:#f7f7f7;
+}
+
+a:link{
+	text-decoration:none;
+	color:#2375BE;
+}
+
+a:visited{
+	text-decoration:none;
+	color:#2375BE;
+}
+
+a:hover{
+	text-decoration:underline;
+	color:#2375BE;
+}
+
+#head{
+	width:80%;
+	margin:10px auto;
+	line-height:50%;
+	color:#4f4f4f;
+}
+
+h1{
+	font-size:300%;
+	color:#0090d3;	
+}
+
+#navigation{
+	width:80%;
+	padding:0% 10%;
+	margin:10px auto;
+	border-top:1px dotted #4f4f4f;	
+	border-bottom:1px dotted #4f4f4f;
+	background:#eee;
+	
+}
+
+.navi{
+	padding-right:10px;	
+}
+
+#sidebar{
+	font-size:14px;
+	float:right;
+	width:20%;
+	margin-right:10%;	
+}
+
+#main{
+	float:left;
+	width:58%;
+	margin-left:10%;
+}
+
+#footer{
+	clear:both;
+	margin-top:10px;
+	padding:10px 0;
+	text-align:center;
+	font-size:12px;	
+	border-top:1px #777 dotted;
+	background:#eee;
+}
